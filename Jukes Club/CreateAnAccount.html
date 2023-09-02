@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Jukes Club - Sign Up</title>
+  <link rel="stylesheet" href="CreateAnAccountStyle.css">
+  <!--links to google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <h1>Jukes Club</h1>
+    <form class="search-form">
+      <input type="text" placeholder="Search...">
+      <button type="submit">Search</button>
+    </form>
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="SignIn.html">Sign In</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <h2>Create an account</h2>
+    <p>Join the Club!</p>
+    <form>
+      <label for="username">Username</label>
+      <input id="newuser">
+      <label for="password">Password</label>
+      <input id="newpassword">
+      <button type="submit" onclick="signup()">Sign Up</button>
+    </form>
+  </div>
+</main>
+
+<script src="SignIn.js"></script>
+
+</body>
+
+</html>
